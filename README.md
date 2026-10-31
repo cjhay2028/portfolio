@@ -14,7 +14,7 @@ Open port 8000 in your local browser. Stop the server with Ctrl+C.
 
 ## Pages
 
-- `index.html`: aviation and leadership highlights, UAS/photography links, and an about introduction.
+- `index.html`: aviation and teaching leadership highlights, hands-on project links, and an about introduction.
 - `about.html`: personal overview.
 - `aviation.html`: Purdue UAS teaching, dispatch, ambassadorship, Aviation Day leadership, aerial business experience, and FAA credentials.
 - `uas.html`: pinned Google Sheets logbook, MakeFlyEasy Believer build first, sophomore flight labs second.
