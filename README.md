@@ -14,19 +14,19 @@ Open port 8000 in your local browser. Stop the server with Ctrl+C.
 
 ## Pages
 
-- `index.html`: home, experience categories, and an about introduction.
+- `index.html`: aviation and leadership highlights, UAS/photography links, and an about introduction.
 - `about.html`: personal overview.
-- `aviation.html`: aviation focus and FAA Part 107 / Student Pilot credentials.
+- `aviation.html`: Purdue UAS teaching, dispatch, ambassadorship, Aviation Day leadership, aerial business experience, and FAA credentials.
 - `uas.html`: pinned Google Sheets logbook, MakeFlyEasy Believer build first, sophomore flight labs second.
-- `photography.html`: photography collection landing page.
-- `experience.html`: customer service and other work experience.
+- `photography.html`: New Perspectives Aerial Photography, exhibition/outreach background, and a collection landing page.
+- `experience.html`: non-aviation work at Lake Bluff Park District, Chick-fil-A, Ravinia, The Fresh Market, and CJ’s Landscaping.
 - `resume.html`: curated resume overview, without embedding a resume document.
 
 Navigation and footers are included directly in each HTML page so they work without JavaScript or a build step. Update all seven pages when changing shared navigation. Colors and responsive layouts live in `styles.css`.
 
 ## Content and media
 
-Content currently uses only the details CJ supplied in the project brief. Employer names, job dates, flight hours, and additional qualifications have not been invented. Resume and LinkedIn details still need to be supplied before expanding the biography and work history. Do not publish personal addresses, certificate numbers, or a resume document without an explicit request.
+Experience content is curated from the LinkedIn screenshots CJ supplied in the conversation, along with the earlier project brief. Dates and responsibilities are taken from those screenshots; current Purdue roles are listed as Present as supplied. No flight hours, degree status, job achievements, or additional qualifications have been invented. The homepage prioritizes aviation operations and leadership; non-aviation employment has its own page. The resume page is a selected overview, not a copy of a resume document. Do not publish personal addresses, certificate numbers, or a resume document without an explicit request.
 
 The Believer and flight lab projects are real project descriptions supplied by CJ. `assets/fixed-wing.svg` is a decorative aircraft illustration, explicitly labeled as such; it is not a photograph or an exact Believer diagram. Actual build photos, flight lab photos/video, and photography selections are still pending. The linked Superhuman/Coda build journal could not be retrieved from the setup environment because its network policy blocked the domain. CJ confirmed the fourth aircraft is a Skydio 2+. The LinkedIn source is https://www.linkedin.com/in/christopherjhaydon.
 
