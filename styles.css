@@ -506,24 +506,6 @@ h4 {
 .project-feature-heading h2 {
   font-size: clamp(36px, 5vw, 62px);
 }
-.aircraft-illustration {
-  position: relative;
-  border-radius: 6px;
-  overflow: hidden;
-  background: #dce9f8;
-}
-.aircraft-illustration img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.aircraft-illustration > span {
-  position: absolute;
-  right: 20px;
-  top: 15px;
-  font: 9px monospace;
-  color: #24466d;
-}
 .project-body {
   display: grid;
   grid-template-columns: 0.9fr 1.1fr;
@@ -820,15 +802,6 @@ h4 {
   }
   .project-feature-heading h2 {
     font-size: 38px;
-  }
-  .aircraft-illustration img {
-    min-height: 170px;
-    object-fit: cover;
-  }
-  .aircraft-illustration > span {
-    top: 8px;
-    right: 10px;
-    font-size: 7px;
   }
   .lab-banner {
     padding: 28px 22px;
@@ -1193,6 +1166,24 @@ h4 {
   }
   .gallery-photo h3 {
     font-size: 15px;
+  }
+}
+
+.believer-gallery {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px 22px;
+}
+.believer-gallery .gallery-photo:first-child {
+  grid-column: auto;
+}
+@media (max-width: 800px) {
+  .believer-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .believer-gallery {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
