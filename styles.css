@@ -469,6 +469,11 @@ h4 {
   font-size: 13px;
   margin: 0;
 }
+.hands-on-section p {
+  color: var(--muted);
+  font-size: 13px;
+  margin: 16px 0 0;
+}
 .logbook-wrap {
   padding-top: 35px;
 }
