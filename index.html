@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="CJ's personal portfolio — a space for thoughtful design, useful code, and new ideas."
+    />
+    <meta name="color-scheme" content="light dark" />
+    <title>CJ — Design & Development</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#home" aria-label="CJ, home"
+        >cj<span>®</span></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact"
+          >Contact <span class="arrow arrow-up" aria-hidden="true"></span
+        ></a>
+      </nav>
+      <button
+        class="theme-toggle"
+        type="button"
+        aria-label="Use dark theme"
+        aria-pressed="false"
+        hidden
+      >
+        <span data-theme-icon aria-hidden="true">◐</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="home" aria-labelledby="hero-title">
+        <div class="eyebrow">
+          <span class="status-dot" aria-hidden="true"></span> A little
+          curiosity. A lot of possibility.
+        </div>
+        <h1 id="hero-title">
+          Thoughtful design.<br /><span>Useful code.</span>
+        </h1>
+        <div class="hero-bottom">
+          <p>
+            Hi, I’m CJ. Welcome to my corner of the internet.<br
+              class="desktop-break"
+            />
+            A place for ideas, experiments, and things worth building.
+          </p>
+          <a class="button" href="#work"
+            >Explore the work
+            <span class="arrow arrow-down" aria-hidden="true"></span
+          ></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-grid"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <span class="art-label">ALWAYS A WORK IN PROGRESS</span>
+          <span class="art-cross">+</span>
+        </div>
+        <div class="hero-caption">
+          <span>Design meets development</span
+          ><span>Built with intention <span aria-hidden="true">✳</span></span>
+        </div>
+      </section>
+
+      <section class="work-section wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / The collection</p>
+            <h2 id="work-title">Room for good ideas.</h2>
+          </div>
+          <p>A few starting points.<br />The next chapter is yours.</p>
+        </div>
+        <p class="template-note">
+          These are sample project concepts. Replace them with your own work.
+        </p>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-art art-studio" aria-hidden="true">
+              <span class="project-number">01</span>
+              <div class="studio-window">
+                <div class="window-dots">•••</div>
+                <div class="studio-title">Less, but<br /><em>better.</em></div>
+                <div class="studio-line"></div>
+                <div class="studio-block"></div>
+              </div>
+              <span class="art-category">WEB / DIGITAL</span>
+            </div>
+            <div class="project-meta">
+              <h3>Studio</h3>
+              <span>Website concept</span>
+            </div>
+            <p>A clean canvas for a creative brand with something to say.</p>
+            <details>
+              <summary>
+                Explore the concept
+                <span class="arrow arrow-up" aria-hidden="true"></span>
+              </summary>
+              <div class="project-details">
+                A sample brief for a creative studio website. Make it yours with
+                a project overview, your role, the tools you used, and a link to
+                the finished work.
+              </div>
+            </details>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-momentum" aria-hidden="true">
+              <span class="project-number">02</span>
+              <div class="momentum-panel">
+                <div class="momentum-heading">
+                  Small steps.<br />Real momentum.
+                </div>
+                <div class="chart">
+                  <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="chart-caption">A LITTLE BETTER, EVERY DAY</div>
+              </div>
+              <span class="art-category">PRODUCT / INTERFACE</span>
+            </div>
+            <div class="project-meta">
+              <h3>Momentum</h3>
+              <span>App concept</span>
+            </div>
+            <p>A friendly way to turn everyday progress into a habit.</p>
+            <details>
+              <summary>
+                Explore the concept
+                <span class="arrow arrow-up" aria-hidden="true"></span>
+              </summary>
+              <div class="project-details">
+                A sample brief for a habit tracker. Replace this with the
+                problem you solved, your approach, and what you learned while
+                bringing the product to life.
+              </div>
+            </details>
+          </article>
+          <article class="project-card project-wide">
+            <div class="project-art art-playground" aria-hidden="true">
+              <span class="project-number">03</span>
+              <div class="playground-shapes">
+                <svg class="shape-flower" viewBox="0 0 100 100">
+                  <g
+                    stroke="currentColor"
+                    stroke-width="13"
+                    stroke-linecap="round"
+                  >
+                    <path d="M50 10v80M10 50h80M22 22l56 56M22 78l56-56" />
+                  </g>
+                </svg>
+                <div class="shape-circle"></div>
+                <div class="shape-square"></div>
+                <span>What if?</span>
+              </div>
+              <span class="art-category">EXPERIMENTS / EXPLORATION</span>
+            </div>
+            <div class="project-meta">
+              <h3>The playground</h3>
+              <span>Creative experiments</span>
+            </div>
+            <p>
+              A space to try something new, follow a tangent, and see what
+              happens.
+            </p>
+            <details>
+              <summary>
+                Explore the concept
+                <span class="arrow arrow-up" aria-hidden="true"></span>
+              </summary>
+              <div class="project-details">
+                A home for small experiments: an animation, a useful tool, or a
+                weekend build. Add your experiments here, with links to the code
+                and a few notes about the process.
+              </div>
+            </details>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="about-section wrap"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div>
+          <p class="eyebrow">02 / Behind the screen</p>
+          <h2 id="about-title">
+            Curiosity is<br />a good place<br /><span>to start.</span>
+          </h2>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">
+            I like the space where a good idea becomes something you can
+            actually use.
+          </p>
+          <p>
+            This portfolio is a starting point for sharing what I’m making and
+            learning along the way. From the first sketch to the finishing
+            details, there’s always something new to explore.
+          </p>
+          <div class="interest-list">
+            <span>Design</span><span>Development</span
+            ><span>Experimentation</span><span>Always learning</span>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="wrap">
+          <p class="eyebrow">03 / What’s next?</p>
+          <h2 id="contact-title">
+            Good things start<br />with a <em>hello.</em>
+          </h2>
+          <div class="contact-bottom">
+            <p>
+              Follow along with what I’m building,<br />or explore the code
+              behind the ideas.
+            </p>
+            <a
+              class="button button-light"
+              href="https://github.com/cjhay2028"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Find me on GitHub
+              <span class="arrow arrow-up" aria-hidden="true"></span
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <span>© <span id="year">2026</span> CJ</span
+      ><span>Made with care & a little curiosity.</span
+      ><a href="#home">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+  </body>
+</html>
