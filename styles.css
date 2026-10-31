@@ -331,6 +331,17 @@ h4 {
 .about-copy {
   padding-top: 40px;
 }
+.about-portrait {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 26px;
+  border-radius: 6px;
+}
+.page-intro .about-portrait {
+  margin-bottom: 28px;
+}
 .about-lead {
   font-size: 22px;
   line-height: 1.4;
