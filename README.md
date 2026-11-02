@@ -16,17 +16,16 @@ Open port 8000 in your local browser. Stop the server with Ctrl+C.
 
 - `index.html`: aviation and teaching leadership highlights, hands-on project links, and an about introduction.
 - `about.html`: personal overview.
-- `aviation.html`: Purdue UAS teaching, dispatch, ambassadorship, Aviation Day leadership, aerial business experience, and FAA credentials.
+- `aviation.html`: Purdue UAS teaching, dispatch, ambassadorship, Aviation Day leadership, aerial business experience, and FAA credentials, with an opening Focus section.
 - `uas.html`: pinned Google Sheets logbook, MakeFlyEasy Believer build first, sophomore flight labs second.
 - `photography.html`: New Perspectives Aerial Photography, exhibition/outreach background, and a seven-photo aerial gallery.
 - `experience.html`: non-aviation work at Lake Bluff Park District, Chick-fil-A, Ravinia, The Fresh Market, and CJ’s Landscaping.
-- `resume.html`: curated resume overview, without embedding a resume document.
 
-Navigation and footers are included directly in each HTML page so they work without JavaScript or a build step. Update all seven pages when changing shared navigation. The blue light/dark color palette and responsive layouts live in `styles.css`. Gallery images open at their full supplied resolution; below-the-fold images load lazily.
+Navigation and footers are included directly in each HTML page so they work without JavaScript or a build step. Update all six pages when changing shared navigation. The blue light/dark color palette and responsive layouts live in `styles.css`. Gallery images open at their full supplied resolution; below-the-fold images load lazily.
 
 ## Content and media
 
-Experience content is curated from the LinkedIn screenshots CJ supplied in the conversation, along with the earlier project brief. Dates and responsibilities are taken from those screenshots; current Purdue roles are listed as Present as supplied. No flight hours, degree status, job achievements, or additional qualifications have been invented. The homepage prioritizes aviation operations and leadership; non-aviation employment has its own page. The resume page is a selected overview, not a copy of a resume document. Do not publish personal addresses, certificate numbers, or a resume document without an explicit request.
+Experience content is curated from the LinkedIn screenshots CJ supplied in the conversation, along with the earlier project brief. Dates and responsibilities are taken from those screenshots; current Purdue roles are listed as Present as supplied. No flight hours, degree status, job achievements, or additional qualifications have been invented. The homepage prioritizes aviation operations and leadership; non-aviation employment has its own page. Do not publish personal addresses, certificate numbers, or a resume document without an explicit request.
 
 The Believer and flight lab projects are real project descriptions supplied by CJ. Five original Believer build photos supplied by CJ are in `assets/believer/` and displayed in the first UAS project. They cover the airframe, wiring workbench, connector detail, fuselage interior, and components. Image files and their proportions are preserved, with links to the full supplied images. Four original flight lab photos supplied by CJ are in `assets/flight-labs/` and displayed in the second UAS project. They show a field setup, a drone on the lab workbench, a thermal camera view, and flight field equipment. The promotional video is still pending. Seven photography images supplied by CJ are included in `assets/photography/`, preserving the original image files and proportions. The fourth supplied photo, `garden-geometry.jpg`, is featured on the homepage and also appears in the gallery. Gallery titles are descriptive labels, not claims about locations or original artwork titles. The linked Superhuman/Coda build journal could not be retrieved from the setup environment because its network policy blocked the domain. CJ confirmed the fourth aircraft is a Skydio 2+. The LinkedIn source is https://www.linkedin.com/in/christopherjhaydon.
 
